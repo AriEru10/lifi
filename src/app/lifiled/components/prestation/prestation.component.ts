@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { produits } from './liste';
 
 @Component({
   selector: 'app-prestation',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prestation.component.scss']
 })
 export class PrestationComponent implements OnInit {
+  produits_list!: { image: string, label: string } [];
 
   constructor() { }
 
   ngOnInit(): void {
+    this.produits_list = produits;
   }
 
 }

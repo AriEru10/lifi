@@ -7,6 +7,7 @@ import { AccueilComponent } from './components/accueil/accueil.component';
 import { PrestationComponent } from './components/prestation/prestation.component';
 import { RealisationComponent } from './components/realisation/realisation.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ContactComponent } from './components/contact/contact.component';
   ],
   imports: [
     CommonModule,
-    LifiledRoutingModule
+    LifiledRoutingModule,
+    NgImageSliderModule
   ],
   exports: [
     BodyComponent,
