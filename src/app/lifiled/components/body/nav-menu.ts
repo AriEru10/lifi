@@ -14,6 +14,10 @@ export const menu = [
     {
         label: 'contact',
         route: '/contact'
+    },
+    {
+        label: 'blog',
+        route: '/blog'
     }
 ];
 

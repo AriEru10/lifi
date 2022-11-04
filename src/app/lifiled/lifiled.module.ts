@@ -8,6 +8,7 @@ import { PrestationComponent } from './components/prestation/prestation.componen
 import { RealisationComponent } from './components/realisation/realisation.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { BlogComponent } from './components/blog/blog.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { NgImageSliderModule } from 'ng-image-slider';
     AccueilComponent,
     PrestationComponent,
     RealisationComponent,
-    ContactComponent
+    ContactComponent,
+    BlogComponent
   ],
   imports: [
     CommonModule,

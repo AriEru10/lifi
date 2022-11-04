@@ -28,6 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 <!-- les liens github pages du groupe 10 -->
 
-https://mktraore94.github.io/lifiled-app/ ( draft)
-
 https://mktraore94.github.io/lifi/   (projet à soumettre au client)

@@ -10,7 +10,7 @@
 //     });
 
 
-//     $("h3").on({
+//     $("h1").on({
 //         mouseenter: function() {
 //             $(this).animate({
 //                 fontSize: '+=10px',
@@ -22,15 +22,15 @@
 //             });
 //         },
 //     });
-//     $("h5").on({
+//     $("h2").on({
 //         mouseenter: function() {
 //             $(this).animate({
-//                 fontSize: '+=10px',
+//                 fontSize: 42,
 //             });
 //         },
 //         mouseleave: function() {
 //             $(this).animate({
-//                 fontSize: '-=10px',
+//                 fontSize: 32,
 //             });
 //         },
 //     });
@@ -72,7 +72,7 @@ window.onload = function() {
         },
     });
 
-    $("h4").on({
+    $("h2").on({
         mouseenter: function() {
             $(this).animate({
                 fontSize: '+=10px',
@@ -100,16 +100,18 @@ window.onload = function() {
     
 
 
-    // $(".logolifi").on({
-    //         mouseenter: function() {
-    //             $(this).animate({ width: '+=10%', });
-    //             },
-    //         mouseleave: function() {
-    //             $(this).animate({ width: '-=10%', });
-    //             },
-    //  });
+    $(".lifi").on({
+            mouseenter: function() {
+                $(this).animate({ width: '+=10%', });
+                },
+            mouseleave: function() {
+                $(this).animate({ width: '-=10%', });
+                },
+     });
     
 
 
     
 }
+
+
